@@ -1,4 +1,4 @@
-# 🛠️🐰 algorithm random defense 🐰🛠️
+# algorithm random defense
 
 
 ### 📌  규칙
