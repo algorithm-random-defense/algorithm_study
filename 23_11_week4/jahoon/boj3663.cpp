@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+// 고득점
 int main() {
 	int t;
 	string s;
@@ -20,8 +20,14 @@ int main() {
 			j = find(s.begin() + i + 1, s.end(), 'B') - s.begin();
 			int right = i * 2 + size - j;
 			int left = i + (size - j) * 2;
+			// cout << i << " " << j << ": " << right << " " << left << "\n";// 흐름이 잘 안보일때 추가해서 보면 이해하기 쉽다.
 			move = min(move, min(left, right));
 		}
 		cout << answer + move << "\n";
 	}
 }
+/*
+
+AABAAABA
+
+*/
