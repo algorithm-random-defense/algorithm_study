@@ -6,6 +6,6 @@
 
 3️⃣ [싸이버 개강 총회](https://www.acmicpc.net/problem/19583)
 
-4️⃣ [문제 제목을 써주세요](https://www.acmicpc.net/)
+4️⃣ [1](https://www.acmicpc.net/problem/4375)
 
-5️⃣ [문제 제목을 써주세요](https://www.acmicpc.net/)
+5️⃣ [DNA 비밀번호](https://www.acmicpc.net/problem/12891)
