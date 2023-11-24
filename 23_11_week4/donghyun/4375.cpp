@@ -12,7 +12,7 @@ int main(void) {
 
 	int input;
 
-	while (cin >> input) { // 신기하네용
+	while (cin >> input) { // 신기하네
 		int one = 1, cnt = 1;
 
 		while (true) {
