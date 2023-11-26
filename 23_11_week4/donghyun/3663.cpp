@@ -28,7 +28,7 @@ void dfs(int depth, int idx) {
 
 	vis[next_idx] = false;
 	// 오른쪽으로 갈 때
-	씨 ㅡ 바 못풀겠다
+	// 하하 못하겠습니다 이거 아닌거같아요
 }
 
 
