@@ -1,3 +1,5 @@
+// 줄어드는 수
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

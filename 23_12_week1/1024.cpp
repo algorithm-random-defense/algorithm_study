@@ -1,3 +1,5 @@
+// 수열의 합
+
 #include <iostream>
 
 using namespace std;

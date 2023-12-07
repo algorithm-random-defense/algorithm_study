@@ -1,3 +1,5 @@
+// 행복 유치원
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -17,7 +19,7 @@ int main() {
 	for (int i = 0; i < v.size() - 1; i++) {
 		int cur_diff = v[i + 1] - v[i];
 		diff.push_back(cur_diff);
-		res += cur_diff; 
+		res += cur_diff;
 	}
 	sort(diff.begin(), diff.end(), greater<int>());
 	for (int i = 0; i < team - 1; i++)
