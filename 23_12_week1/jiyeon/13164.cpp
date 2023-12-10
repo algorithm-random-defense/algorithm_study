@@ -18,7 +18,7 @@ int main() {
     vector<int> height(n), dist(n - 1);
     for (int i = 0; i < n; i++) {
         cin >> height[i];
-        if (i) dist[i - 1] = height[i] - height[i - 1]; // 인접한 사람의 키 차이 저장
+        if (i) dist[i - 1] = height[i] - height[i - 1]; // 인접한 사람의 키 차이 저장 
     }
 
     sort(dist.begin(), dist.end());

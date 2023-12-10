@@ -21,7 +21,7 @@ bool compare(const string& a, const string& b) {
 // ("2", 0) : num = 20, ("2", 1) : num = 21
 //                      ("21", 0) : num = 210
 void getDecreaseNum(string num, int units) {
-    num += '0' + units; // 일의자리 더해줌 units: 일의자리라는 뜻 ㅎ
+    num += '0' + units; // 일의자리 더해줌 units: 일의자리라는 뜻 ㅎ 
     decrease_num.push_back(num);
     for (int i = 0; i < units; i++)
         getDecreaseNum(num, i);
