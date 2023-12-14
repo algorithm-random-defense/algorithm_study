@@ -16,7 +16,7 @@ int main() {
 		}
 		sort(logs.begin(), logs.end());
 		for (int i=0; i<n-2; i++) {
-			answer = max(answer, max(logs[i+1], logs[i+2])-logs[i]);
+			answer = max(answer, logs[i+2]-logs[i]);
 		}
 		cout << answer << "\n";
 	}
