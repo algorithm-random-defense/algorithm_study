@@ -15,7 +15,7 @@ int main() {
 	}
 	sort(vec.begin(), vec.end());
 
-	int low = 1, high = l - 1, mid, result = 0;
+	int low = 1, high = l - 1, mid;
 
 	while (low <= high) {
 		mid = (low + high) / 2;
@@ -31,9 +31,8 @@ int main() {
 			low = mid + 1;
 		else {
 			high = mid - 1;
-			result = mid;
 		}
 	}
 
-	cout << result << endl;
+	cout << low << endl;
 }
